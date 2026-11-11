@@ -1,0 +1,27 @@
+.container {
+  background-color: #00a8ff;
+  height: 150px;
+}
+
+h1 {
+  padding: 15px;
+}
+
+button {
+  background-color: #00a8ff;
+  border: none;
+  margin: 30px 15px 0px;
+  padding: 17px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:focus {
+  color: #f6e58d;
+  border-bottom: 3px #f6e58d solid;
+}
+
+.active {
+  color: #f6e58d;
+  border-bottom: 2px #f6e58d solid;
+}
